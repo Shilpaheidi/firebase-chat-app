@@ -1,0 +1,63 @@
+// #history {
+//     margin-left: auto;
+//     margin-right: auto;
+//     padding-left: 1em;
+//     padding-right: 1em;
+//     width: 400px;
+//     height:60%;
+//     // overflow-y: scroll;
+//   }
+
+#history {
+  margin-left: 0; /* Set left margin to 0 to align it to the left */
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 400px;
+  height: 60%;
+  /* overflow-y: scroll; */ /* You can uncomment this if needed */
+}
+
+
+  #user2-history{
+
+      margin-left: auto; /* Set left margin to auto to push it to the right */
+      margin-right: 0;   /* Reset right margin to 0 */
+      padding-left: 1em;
+      padding-right: 1em;
+      width: 400px;
+      height: 60%;
+      // overflow-y: scroll;
+  
+  
+  }
+  
+  #message {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+  
+  .fw {
+    width: 100%
+  }
+  
+  .mb {
+    margin-bottom: 1em;
+  }
+
+  // mat-card{
+
+  //   width: 200px;
+  // }
+
+  .left-message {
+  text-align: left;
+  width: 400px;
+  /* Add other styles for left-aligned messages */
+}
+
+.right-message {
+  text-align: right;
+  width: 400px;
+  /* Add other styles for right-aligned messages */
+}
